@@ -73,5 +73,10 @@ func main() {
 	courseSlice[0] = "java"
 	fmt.Println(courseSliceCopy2)
 	fmt.Println(courseSliceCopy)
-}
 
+	b := []byte{'g', 'o', 'l', 'a', 'n', 'g'}
+	fmt.Println(string(b[1:4])) // ola
+	fmt.Println(string(b[:2]))  // go
+	fmt.Println(string(b[2:]))  // lang
+	fmt.Println(string(b[:]))   // golang
+}
